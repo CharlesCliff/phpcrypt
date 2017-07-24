@@ -1,0 +1,30 @@
+{
+	"name": "CharlesCliff/phpcrypt",
+	"authors": [
+        {
+            "name": "CharlesCliff",
+            "email": "charlescliff248@gmail.com",
+            "homepage": "http://www.naderman.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "http://seld.be",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "exclude-from-classmap": ["/Tests/", "/test/", "/tests/", "/examples/", "/licenses/"],
+        "classmap": ["src/"],
+        
+    },
+    "repositories": [
+        
+        {
+            "type": "vcs",
+            "url": "https://github.com/CharlesCliff/phpcrypt.git"
+        }
+        
+    ]
+}
