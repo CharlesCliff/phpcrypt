@@ -21,11 +21,11 @@
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
-    "autoload": {
-        "exclude-from-classmap": ["/Tests/", "/test/", "/tests/", "/examples/", "/licenses/"],
-        "classmap": ["src/"],
+    // "autoload": {
+    //     "exclude-from-classmap": ["/Tests/", "/test/", "/tests/", "/examples/", "/licenses/"],
+    //     "classmap": ["src/"],
         
-    },
+    // },
     "repositories": [
         
         {
