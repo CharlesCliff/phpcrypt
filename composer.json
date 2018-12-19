@@ -16,8 +16,7 @@
     ],
     "autoload": {
         "exclude-from-classmap": ["/Tests/", "/test/", "/tests/", "/examples/", "/licenses/"],
-        "classmap": ["src/"],
-        
+        "classmap": ["src/"]
     },
     "repositories": [
         
